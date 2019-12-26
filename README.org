@@ -8,7 +8,7 @@ Cutdown version of original project https://github.com/nix-community/nixbox
 Usage
 -----
 
-#+BEGeIN_SRC
+#+BEGEIN_SRC
 packer build --only=virtualbox-iso nixos-x86_64.json
 vagrant box add nixbox64 nixos-19.09-virtualbox-x86_64.box --force
 vagrant up
