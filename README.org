@@ -21,4 +21,11 @@ vagrant up
 
 vagrant ssh
 
+# add custom nix-configuration
+nix-shell -p yadm -p git
+
+sudo yadm clone https://github.com/RomanShestakov/nix-configuration.git -w /etc/nixos
+
+exit
+
 #+END_SRC
